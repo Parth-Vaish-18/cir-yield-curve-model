@@ -15,6 +15,11 @@ An institutional-grade implementation of the **Cox-Ingersoll-Ross (CIR)** single
 * **Jump-Diffusion Composite Out-of-Sample R²:** ~0.89
 * Successfully defended the 2.0Y maturity tail from algorithmic collapse, a common failure point in single-factor curve reconstruction. *(Note: The Base CIR generalized slightly better out-of-sample, demonstrating a classic bias-variance tradeoff where the JD extension's flexibility acts as a structural drag during non-volatile test periods).*
 
+## 📂 Repository Contents
+
+* `Parth_Vaish_CIR_Predictions.csv` — **[Audit File]** The final exported matrix of out-of-sample yield curve predictions for both models, provided for direct verification.
+* `Parth_Vaish_CIR_Project_FinClub.ipynb` — The notebook containing the OOP pipeline, calibration engine, vectorized yield plotting, and critical theoretical analysis.
+
 ## 🛠️ Tech Stack
 
 **Language:** Python 3  
